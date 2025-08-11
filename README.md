@@ -1,71 +1,31 @@
-🧠 LangChain Q&A Chatbot with OpenAI
-An interactive Q&A chatbot built with LangChain, Streamlit, and OpenAI's GPT models.
-Ask questions and get AI-generated answers instantly.
+# Chatbot Assistant
 
-✨ Features
-💬 Chat Interface – Simple text input to ask your questions
+A simple Python-based chatbot application that uses the OpenAI API to answer user queries intelligently.  
+It requires an `.env` file to store the OpenAI API key.  
+Setup involves installing dependencies, configuring the `.env` file, and running the chatbot.
 
-⚙️ Customizable Settings – Choose your model, temperature, and max tokens
+## Features
+- Responds to user queries intelligently
+- Customizable prompt templates
+- Environment variable configuration
 
-🔒 Environment-based API Key – Keep your OpenAI API key safe in a .env file
+## Setup
+1. Clone the repository
+2. Install dependencies:  
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Create `.env` file:  
+   ```
+   OPENAI_API_KEY=your_api_key_here
+   ```
+4. Run the chatbot:  
+   ```bash
+   python main.py
+   ```
 
-🎨 Streamlit UI – Clean, responsive design
+## Environment Variables
+- **OPENAI_API_KEY**: Your OpenAI API key (required)
 
-🛠 Tech Stack
-Python 3.9+
-
-LangChain
-
-OpenAI API
-
-Streamlit
-
-python-dotenv
-
-📦 Setup Instructions
-1️⃣ Prerequisites
-Python 3.9+
-
-OpenAI API Key → Get one here
-
-Git
-
-2️⃣ Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/langchain-chatbot.git
-cd langchain-chatbot
-3️⃣ Create and Activate Virtual Environment
-bash
-Copy
-Edit
-python -m venv venv
-venv\Scripts\activate    # On Windows
-# OR
-source venv/bin/activate # On Mac/Linux
-4️⃣ Install Dependencies
-bash
-Copy
-Edit
-pip install -r requirements.txt
-5️⃣ Setup .env File
-Create a .env file in the root directory and add your OpenAI API key:
-
-env
-Copy
-Edit
-OPENAI_API_KEY=your_openai_api_key_here
-⚠️ Never commit your .env file or API keys to GitHub.
-
-6️⃣ Run the App
-bash
-Copy
-Edit
-streamlit run app.py
-🚀 Usage
-Enter your question in the input box
-
-Adjust settings (model, temperature, max tokens) in the sidebar
-
-Get instant AI-powered responses
+## License
+MIT License
