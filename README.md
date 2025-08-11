@@ -21,11 +21,10 @@ Setup involves installing dependencies, configuring the `.env` file, and running
    ```
 4. Run the chatbot:  
    ```bash
-   python main.py
+   streamlit run app.py
    ```
 
 ## Environment Variables
 - **OPENAI_API_KEY**: Your OpenAI API key (required)
 
-## License
-MIT License
+
