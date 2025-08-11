@@ -1,28 +1,35 @@
 🧠 LangChain Q&A Chatbot with OpenAI
 An interactive Q&A chatbot built with LangChain, Streamlit, and OpenAI's GPT models.
-You can ask questions and get AI-generated answers instantly!
+Ask questions and get AI-generated answers instantly.
 
 ✨ Features
-Chat Interface – Simple text input to ask your questions.
+💬 Chat Interface – Simple text input to ask your questions
 
-Customizable Settings – Choose your model, temperature, and max tokens.
+⚙️ Customizable Settings – Choose your model, temperature, and max tokens
 
-Environment-based API Key – Keep your OpenAI API key safe in a .env file.
+🔒 Environment-based API Key – Keep your OpenAI API key safe in a .env file
 
-Streamlit UI – Clean, responsive design.
+🎨 Streamlit UI – Clean, responsive design
 
 🛠 Tech Stack
 Python 3.9+
+
 LangChain
+
 OpenAI API
+
 Streamlit
+
 python-dotenv
 
 📦 Setup Instructions
 1️⃣ Prerequisites
-Python 3.9 or above
-An OpenAI API Key → Get one here: OpenAI API Keys
+Python 3.9+
+
+OpenAI API Key → Get one here
+
 Git
+
 2️⃣ Clone the Repository
 bash
 Copy
@@ -35,9 +42,7 @@ Copy
 Edit
 python -m venv venv
 venv\Scripts\activate    # On Windows
-
 # OR
-
 source venv/bin/activate # On Mac/Linux
 4️⃣ Install Dependencies
 bash
@@ -46,14 +51,21 @@ Edit
 pip install -r requirements.txt
 5️⃣ Setup .env File
 Create a .env file in the root directory and add your OpenAI API key:
-init
+
+env
 Copy
 Edit
 OPENAI_API_KEY=your_openai_api_key_here
 ⚠️ Never commit your .env file or API keys to GitHub.
+
 6️⃣ Run the App
 bash
 Copy
 Edit
-
 streamlit run app.py
+🚀 Usage
+Enter your question in the input box
+
+Adjust settings (model, temperature, max tokens) in the sidebar
+
+Get instant AI-powered responses
